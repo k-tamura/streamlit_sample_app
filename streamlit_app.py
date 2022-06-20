@@ -1,3 +1,4 @@
 import streamlit as st
-x=st.radio("What's your favorite movie genre", ('Comedy', 'Drama', 'Documentary', 'Fiction'))
-x
+uploaded_file = st.file_uploader("Apacheのアクセスログをアップロードしてください。")
+if uploaded_file is not None:
+    # ファイルがアップローできたら、処理を開始します。
