@@ -1,1 +1,2 @@
-'Hello, world!'
+x = 10
+'x', x 
